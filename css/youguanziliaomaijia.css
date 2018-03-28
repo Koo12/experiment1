@@ -1,0 +1,187 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.header
+{
+    text-align: center;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    margin-top: 10px;
+}
+
+#selfinformation
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    position: fixed;
+    margin-top: 0px;
+    padding: 10px;
+    z-index: -2;
+}
+
+a
+{
+    text-decoration-line: none;
+}
+
+a:link
+{
+    color: sandybrown;
+}
+
+a:visited
+{
+    color: sandybrown;
+}
+
+#slideshow
+{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    left: 200px;
+}
+
+#maijia
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    width: 120px;
+    height: 500px;
+}
+
+#maijia a
+{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#maijia a:hover
+{
+    background-color: gray;
+}
+
+.tablerow
+{
+    display: table-row;
+}
+
+.tablecell
+{
+    display: table-cell;
+}
+
+.tablerow2
+{
+    display: table-row;
+}
+
+.tablerow2 p
+{
+    display: table-cell;
+    padding: 5px;
+    vertical-align: top;
+}
+
+#chuzuxinxi
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    padding-right: 10px;
+}
+
+.tablerow2 p:first-child
+{
+    text-align: right;
+}
+
+.tablerow2 p:last-child
+{
+    text-align: left;
+}
+
+.tablerow2 p textarea
+{
+    width: 300px;
+    height: 150px;
+}
+
+#an p:last-child
+{
+    text-align: right;
+}
+
+#qian
+{
+    margin-left: 200px;
+}
+
+#budong
+{
+    display: inline;
+    position: absolute;
+    top: 120px;
+    left: 1230px;
+}
+
+table
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+td,th
+{
+    border: thin dotted gray;
+}
+
+caption
+{
+    font-style: initial;
+    padding-top: 8px;
+}
+
+th
+{
+    background-color: aquamarine;
+}
+
+table tr:nth-child(2n)
+{
+    background-color: rgb(107, 219, 253)
+}
+
+table tr:hover
+{
+    background-color: gray;
+}
+
+#bieren
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+}
+
+#maijia img
+{
+    margin-top:10px; 
+}
+
+#bieren img
+{
+    margin-top: 10px;
+}

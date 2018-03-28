@@ -1,0 +1,151 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.header
+{
+    text-align: center;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+    margin-bottom: 10px;
+}
+
+footer
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    margin-top: 10px;
+}
+
+#selfinformation
+{
+    width: 170px;
+    border: thick double sandybrown;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    background-color: lightcyan;
+    z-index: -1;
+}
+
+a
+{
+    text-decoration-line: none;
+    display: block;
+}
+
+a:link
+{
+    color:sandybrown;
+}
+
+a:visited
+{
+    color: sandybrown;
+}
+
+#lianxi
+{
+    background-color: lightcyan;
+    border:thick double sandybrown;
+    width: 170px;
+    padding: 10px;
+}
+
+#lianxi a:hover
+{
+    background-color: grey;
+}
+
+table
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+td,th
+{
+    border: thin dotted gray;
+}
+
+caption
+{
+    font-style: initial;
+    padding-top: 8px;
+}
+
+th
+{
+    background-color: aquamarine;
+}
+
+table tr:nth-child(2n)
+{
+    background-color: rgb(107, 219, 253)
+}
+
+table tr:hover
+{
+    background-color: gray;
+}
+
+.tablerow
+{
+    display: table-row;
+}
+
+.tablecell
+{
+    display: table-cell;
+}
+
+#huati
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#fabiao
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    padding: 10px;
+}
+
+#fabiao textarea
+{
+    width: 550px;
+    height: 150px;
+}
+
+#fabiao button
+{
+    display: block;
+}
+
+#fabiao img
+{
+    padding-top: 20px;
+}
+
+#paihang
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    position: fixed;
+    top: 120px;
+    right: 10px;
+    padding: 10px;
+}
+
+#paihang a
+{
+    font-size: 20px;
+}
+

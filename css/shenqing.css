@@ -1,0 +1,28 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    
+}
+
+form
+{
+    display: table;
+    border: thick double sandybrown;
+    text-align: center;
+    padding: 25px;
+    background-color: lightcyan;
+}
+
+form p
+{
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+
+div.tableRow
+{
+    display: table-row;
+}
+

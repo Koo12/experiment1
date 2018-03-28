@@ -1,0 +1,109 @@
+body
+{
+    background-color:lightgoldenrodyellow;
+}
+
+.header
+{
+    text-align: center;
+    border:thick double sandybrown;
+    background-color: lightcyan;
+}
+
+.nva
+{
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    background-color: lightcyan;
+    border: 0px;
+}
+
+.daohang
+{
+    display: inline;
+    font-size: 30px;
+    padding: 0px 10px;
+    font-family: "宋体";
+}
+
+a
+{
+    text-decoration-line: none;
+}
+
+a:link
+{
+    color: sandybrown;
+}
+
+a:visited
+{
+    color: sandybrown;
+}
+
+.daohang:hover
+{
+    background-color: lightgoldenrodyellow;
+}
+
+#study
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.tableRow
+{
+    display: table-row;
+    text-align: left;
+}
+
+.school
+{
+    display: table-cell;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+    padding: 10px;
+    font-family: "宋体";
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.video
+{
+    display: table-cell;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+    padding: 10px;
+    font-family: "宋体";
+    font-size: 20px;
+    color: rgb(233, 6, 253);
+}
+
+.book
+{
+    display: table-cell;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+    padding: 10px;
+    font-family: "宋体";
+    font-size: 20px;
+    color: rgb(247, 11, 90);
+}
+
+footer
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    margin-top: 10px; 
+}
+
+#video
+{
+    display: inline;
+}
+
+#an
+{
+    display: inline;
+}
+

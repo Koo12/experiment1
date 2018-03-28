@@ -1,0 +1,116 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.header
+{
+    text-align: center;
+    border: thick double sandybrown;
+    background-color: lightcyan;
+}
+
+footer
+{
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    margin-top: 10px;
+    
+}
+
+.nva
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: lightcyan;
+    border: 0px;
+}
+
+.daohang
+{
+    display: inline;
+    font-size: 30px;
+    padding: 0px 10px;
+    font-family: "宋体";
+}
+
+a
+{
+    text-decoration-line: none;
+}
+
+a:link
+{
+    color:sandybrown;
+}
+
+a:visited
+{
+    color: sandybrown;
+}
+
+.daohang:hover
+{
+    background-color: lightgoldenrodyellow;
+}
+
+#goumai
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.tu
+{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#zhongtu
+{
+    border-top: thick double sandybrown;
+    border-bottom: thick double sandybrown;
+}
+
+table
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: top;
+    border-collapse: collapse;
+}
+
+td,th
+{
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+caption
+{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+th
+{
+    background-color: aquamarine;
+}
+
+table table tr:nth-child(2n)
+{
+    background-color:rgb(107, 219, 253);
+}
+
+table table tr:hover
+{
+    background-color: grey;
+}
+
+#fixed
+{
+    position: fixed;
+    left: -80px;
+    top:350px;
+}

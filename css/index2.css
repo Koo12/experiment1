@@ -1,0 +1,26 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+    /*background: -moz-radial-gradient(red, green, blue);*/
+}
+
+form
+{
+    display: table;
+    border:thick double sandybrown;
+    text-align: center;
+    padding: 25px;
+    background-color: lightcyan;
+}
+
+form p
+{
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+}
+
+div.tableRow
+{
+    display: table-row;
+}

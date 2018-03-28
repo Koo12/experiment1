@@ -1,0 +1,52 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.table
+{
+    display: table;
+    background-color: lightcyan;
+    border: thick double sandybrown;
+    padding: 30px;
+    text-align: center;
+}
+
+.tablerow
+{
+    display: table-row;
+    
+}
+
+.tablerow a
+{
+    display: block;
+}
+
+.tablerow a:hover
+{
+    background-color: grey;
+}
+
+a
+{
+    text-decoration-line: none;
+    font-size: 50px;
+}
+
+a:link
+{
+    color: sandybrown;
+}
+
+a:visited
+{
+    color: sandybrown;
+}
+
+h3
+{
+    font-size: 60px;
+}
+
+

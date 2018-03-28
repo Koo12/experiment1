@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="css/index2.css">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+    <center>
+    <h1>音乐爱好者系统</h1>
+    <form action="" method="post" onsubmit="return jump(this);">
+            <div class="tableRow">
+                <p>身份：</p>
+                <p>
+                    <select name="shenfen" id="jieguo">
+                        <option value="guanlizhe">网站管理者</option>
+                        <option value="putongshiyongzhe">网站普通使用者</option>
+                        <option value="yinyuechangsuochuzuzhe">网站音乐场所出租者</option>                            
+                        <option value="youguanziliaomaijia">网站有关资料卖家</option>
+                        <option value="jiaoshi">网站教师</option>
+                    </select>
+                 </p>
+            </div>
+            <div class="tableRow">
+                <p>用户名:</p>
+                <p>
+                    <input type="text" id="userName" name="userName" placeholder="20160000" required>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>密码：</p>
+                <p>
+                    <input type="passWord" id="userPassWord" name="userPassWord" placeholder="******" required>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p>
+                    <input type="submit" value="登录">
+                </p>
+                <p>
+                    <a href="shenqing.html">申请账号</a>
+                </p>
+            </div>
+    </form>
+    </center>
+</body>
